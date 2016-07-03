@@ -1,0 +1,4 @@
+name: CHProtocol
+main: me.hub.Main
+load: STARTUP
+

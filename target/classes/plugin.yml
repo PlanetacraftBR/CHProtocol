@@ -1,0 +1,6 @@
+name: CHProtocol
+version: 3.6.5-SNAPSHOT
+description: Plugin do PlanetaCraft.
+authors: [AdrianCF,ProtocolSuport]
+load: STARTUP
+main: me.hub.Main
