@@ -1,11 +1,9 @@
 package protocolsupportbuildprocessor.processors;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
+
 import javax.annotation.processing.AbstractProcessor;
-import javax.annotation.processing.Messager;
-import javax.annotation.processing.ProcessingEnvironment;
 import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedAnnotationTypes;
 import javax.annotation.processing.SupportedSourceVersion;
@@ -19,6 +17,7 @@ import javax.lang.model.type.DeclaredType;
 import javax.lang.model.type.TypeKind;
 import javax.lang.model.type.TypeMirror;
 import javax.tools.Diagnostic.Kind;
+
 import protocolsupportbuildprocessor.annotations.NeedsNoArgConstructor;
 
 @SupportedAnnotationTypes({"*"})
