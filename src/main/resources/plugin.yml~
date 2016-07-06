@@ -1,0 +1,6 @@
+name: CHProtocol
+version: ${project.version}${project.build.number}
+description: Plugin do PlanetaCraft.
+authors: [AdrianCF,ProtocolSuport]
+load: STARTUP
+main: me.hub.Main
